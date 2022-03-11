@@ -10,7 +10,7 @@ Nello specifico le statistiche acquisite riguardano la concentrazione dei seguen
 5) O3
 6) NO2
 
-I dati sono acqusiti dal sito web https://www.3bmeteo.com/ che mette a disposizione i dati per ciascun comune italiano per la data odierna(non sono disponibili serie storiche).
+I dati sono acqusiti dal sito web https://www.3bmeteo.com/meteo che mette a disposizione i dati per ciascun comune italiano per la data odierna(non sono disponibili serie storiche).
 Le denominazioni dei comuni,con la provincia e la regione di appartenenza, sono contenuti nel file datiComuniItalia.csv il quale è stato costruito a partire dai dati ufficiali rilasciati dall'istat(aggiornati al 2022).
 
 Per acqusire i dati basta invocare la funzione:
