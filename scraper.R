@@ -1,7 +1,6 @@
 library(rvest)
 library(readr)
 library(stringr)
-library(sf)
 
 
 current_date = format(Sys.Date(), format = "%Y/%m/%d")
