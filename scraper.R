@@ -6,7 +6,7 @@ library(stringr)
 current_date = format(Sys.Date(), format = "%Y/%m/%d")
 url = 'https://www.3bmeteo.com/meteo/'
 
-datiComuniItalia <- read.csv('datiComuniItalia.csv')
+datiComuniItalia <- read.csv('./datiComuniItalia.csv')
 
 dati <- data.frame(data=as.Date(character()),regione=character(),provincia=character(),comune=character(),PM10=double(),PM2.5=double(),CO=double(),SO2=double(),O3=double(),NO2=double())
 
