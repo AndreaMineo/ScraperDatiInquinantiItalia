@@ -83,6 +83,7 @@ retrieve_data <- function(regione='all',provincia='all'){
     return()
   }
   
+  df <- df[order(df$regione,df$provincia,df$comune),]
   
   for(i in 1:nrow(df)){
    c = df[i,]$comune
