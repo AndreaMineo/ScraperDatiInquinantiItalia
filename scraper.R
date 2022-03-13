@@ -3,7 +3,7 @@ library(readr)
 library(stringr)
 
 
-current_date = format(Sys.Date(), format = "%Y/%m/%d")
+current_date = format(Sys.Date(), format = "%Y-%m-%d")
 url = 'https://www.3bmeteo.com/meteo/'
 
 datiComuniItalia <- read.csv('https://raw.githubusercontent.com/AndreaMineo/ScraperDatiInquinantiItalia/main/datiComuniItalia.csv')
