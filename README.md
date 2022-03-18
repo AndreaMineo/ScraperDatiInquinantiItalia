@@ -1,6 +1,6 @@
 # ScraperDatiInquinantiComuniItalia
 
-Script R per l'acquisizione automatica dei dati sulla concentrazione di inquinanti nell'aria per ciascun comune italiano.
+Pacchetto R per l'acquisizione automatica dei dati sulla concentrazione di inquinanti nell'aria per ciascun comune italiano.
 Nello specifico le statistiche acquisite riguardano la concentrazione dei seguenti agenti inquinanti:
 
 1) PM10
