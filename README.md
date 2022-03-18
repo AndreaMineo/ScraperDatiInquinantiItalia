@@ -19,7 +19,7 @@ Per acqusire i dati basta invocare la funzione:
  
 dove i parametri regione e provincia sono di tipo string(valore di default 'all').La funzione restituisce un dataframe contenente,per ciascun comune dell'insieme definito dai parametri passati alla funzione,le seguenti statistiche:
 
-1) data (nel formato yyyy/m/d)
+1) data (nel formato yyyy-m-d)
 2) regione di appartenenza
 3) provincia di appartenenza
 4) valore concentrazione PM10(µg/m³)
