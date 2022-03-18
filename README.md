@@ -22,12 +22,13 @@ dove i parametri regione e provincia sono di tipo string(valore di default 'all'
 1) data (nel formato yyyy-m-d)
 2) regione di appartenenza
 3) provincia di appartenenza
-4) valore concentrazione PM10(µg/m³)
-5) valore concentrazione PM2.5(µg/m³)
-6) valore concentrazione CO(µg/m³)
-7) valore concentrazione SO2(µg/m³)
-8) valore concentrazione O3(µg/m³)
-9) valore concentrazione NO2(µg/m³)
+4) denominazione comune
+5) valore concentrazione PM10(µg/m³)
+6) valore concentrazione PM2.5(µg/m³)
+7) valore concentrazione CO(µg/m³)
+8) valore concentrazione SO2(µg/m³)
+9) valore concentrazione O3(µg/m³)
+10) valore concentrazione NO2(µg/m³)
 
 
  
