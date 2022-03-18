@@ -1,4 +1,4 @@
-# ScraperDatiInquinantiItalia
+# ScraperDatiInquinantiComuniItalia
 
 Script R per l'acquisizione automatica dei dati sulla concentrazione di inquinanti nell'aria per ciascun comune italiano.
 Nello specifico le statistiche acquisite riguardano la concentrazione dei seguenti agenti inquinanti:
@@ -15,7 +15,7 @@ Le denominazioni dei comuni,con la provincia e la regione di appartenenza, sono 
 
 Per acqusire i dati basta invocare la funzione:
 
- ### retriev_data(regione='all',provincia='all')
+ ### ScrapingDatiInquinantiComuniItaliani(regione='all',provincia='all')
  
 dove i parametri regione e provincia sono di tipo string(valore di default 'all').La funzione restituisce un dataframe contenente,per ciascun comune dell'insieme definito dai parametri passati alla funzione,le seguenti statistiche:
 
@@ -33,12 +33,12 @@ dove i parametri regione e provincia sono di tipo string(valore di default 'all'
  
 Per ottenere i dati dei comuni di una specifica provincia invocare la funzione specificando la provincia e la regione di appartenenza della stessa:
  
-  #### retrieve__data(regione=regione,provincia=provincia)
+  #### ScrapingDatiInquinantiComuniItaliani(regione=regione,provincia=provincia)
   
 Per ottenere i dati dei comuni di una specifica regione invocare la funzione specificando la regione di interesse:
 
- #### retrieve_data(regione=regione)
+ #### ScrapingDatiInquinantiComuniItaliani(regione=regione)
  
 Per ottenere i dati di ciascun comune italiano invocare la funzione senza parametri:
 
- #### retrieve_data()
+ #### ScrapingDatiInquinantiComuniItaliani()
