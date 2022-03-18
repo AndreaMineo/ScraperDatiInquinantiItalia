@@ -7,6 +7,7 @@ conversione_denominazione_comune <- function(x){
   x <- stringr::str_replace_all(x,'ì','i')
   x <- stringr::str_replace_all(x,"'","")
   x <- stringr::str_replace_all(x," ","+")
+  x <- stringr::str_replace_all(x,"-","+")
   return(tolower(x))
 }
 
