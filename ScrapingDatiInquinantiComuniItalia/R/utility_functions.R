@@ -1,15 +1,3 @@
-conversione_denominazione_comune <- function(x){
-  x <- stringr::str_replace_all(x,'è','e')
-  x <- stringr::str_replace_all(x,'é','e')
-  x <- stringr::str_replace_all(x,'à','a')
-  x <- stringr::str_replace_all(x,'ù','u')
-  x <- stringr::str_replace_all(x,'ò','o')
-  x <- stringr::str_replace_all(x,'ì','i')
-  x <- stringr::str_replace_all(x,"'","")
-  x <- stringr::str_replace_all(x," ","+")
-  x <- stringr::str_replace_all(x,"-","+")
-  return(tolower(x))
-}
 
 formattazione_valori_inquinanti <- function(x){
   x <- stringr::str_replace_all(x," ","")

@@ -53,18 +53,18 @@ ScrapingDatiInquinantiComuniItalia <- function(regione='all',provincia='all'){
   }
 
   df <- df[order(df$regione,df$provincia,df$comune),]
-  for(i in 1:nrow(df)){
+  dati <- unlist(lapply(1:nrow(df),function(i){
     c = df[i,]$comune
     p = df[i,]$provincia
     r = df[i,]$regione
+    x <- df[i,]$nome_comune_convertito
 
-    x <- conversione_denominazione_comune(c)
     values <- estrai_valori_da_pagina_html(x,url)
     values <- lapply(values,formattazione_valori_inquinanti)
     dati[nrow(dati)+1,] <- c(c(current_date,r,p,c),values)
 
     print(paste("retrieved data: ",as.character(i),"/",as.character(nrow(df))))
-  }
+  }))
 
   return(dati)
 }
